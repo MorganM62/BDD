@@ -1,0 +1,11 @@
+# Modèle créé le : Tue Jun 13 16:13:10 CEST 2023 
+Acteur (ID_Acteur, Nom_Acteur, Prénom_Acteur, Rôle_Acteur, Date_de_naissance_Acteur) 
+Actrice (ID_Actrice, Nom_Actrice, Prénom_Actrice, Rôle_Actrice, Date_de_naissance_Actrice) 
+Admin (ID_Admin) 
+User (ID_User, Nom_User, Prénom_User, Email_User, Mot_de_passe_User, Rôle_User, Films_préférés_User) 
+Film (ID_Film, Titre_Film, Durée_Film, Année_de_Sortie_Film) 
+Réalisateur (ID_Réalisateur, Nom_Réalisateur, Prénom_Réalisateur) 
+A_joué_dans (ID_Film, ID_Acteur, ID_Actrice) 
+A_réalisé (ID_Réalisateur, ID_Film) 
+Aime (ID_User, ID_Film) 
+Gère (ID_Admin, ID_Actrice, ID_Acteur, ID_Réalisateur, ID_Film) 
